@@ -1,7 +1,7 @@
 # Console
 A simple console logger for swift
 
-# Install (Carthage only)
+# Install 
 
 in your *Cartfile* (don't have? create one!), add bellow in a new line.
 
