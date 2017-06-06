@@ -1,13 +1,15 @@
 # Console
 A simple console logger for swift
 
-# Install
+# Install (Carthage only)
+
+in your *Cartfile* (don't have? create one!), add bellow in a new line.
 
 ```ruby
 github "Gaea-iOS/Console" 
 ```
 
-and then run the command bellow:
+and then run the command in terminal:
 
 ```ruby
 carthage update --platform iOS Console
