@@ -12,5 +12,29 @@ and then run the command bellow:
 ```ruby
 carthage update --platform iOS Console
 ```
+# Usage
+
+### easy to use:
+```swift
+Console.log(.debug, message: "this is a debug message")
+```
+
+
+### five log level are defined:
+
+```swift
+public enum LogLevel: Int, CustomStringConvertible {
+        case error = 0
+        case warning = 1
+        case info = 2
+        case debug = 3
+        case verbose = 4
+        }
+```
+if you want only log *error* level message, you should set maxLevel to *error*:
+
+```swift
+Console.maxLevel = .debug
+```
 
 enojoy it!
