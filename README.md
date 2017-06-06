@@ -7,3 +7,10 @@ A simple console logger for swift
 github "Gaea-iOS/Console" 
 ```
 
+and then run the command bellow:
+
+```ruby
+carthage update --platform iOS Console
+```
+
+enojoy it!
